@@ -1,0 +1,162 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 1.6;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-top: 1.5%;
+}
+body{
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+p{
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 200;
+}
+
+
+#title{
+  background-color: #FFC0D3;
+  color: white;
+}
+.bg1{
+  margin-bottom: -21%;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.downloadbtn{
+  margin: 5% 3% 0 0;
+}
+.img1{
+  width: 60%;
+  position: relative;
+  left: 16%;
+  padding-top: 5%;
+  transform: rotate(25deg);
+}
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .img1{
+    position: static;
+    transform: rotate(0);
+  }
+
+  .bg1{
+    margin-bottom: auto;
+  }
+}
+
+
+#features{
+  padding: 12% 15%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.fontawesome{
+  color: #FFC0D3;
+  padding: 8px;
+}
+.fontawesome:hover {
+  color: #F875AA;
+}
+
+
+#testimonials{
+  background-color: #FFC0D3;
+  color: white;
+  text-align: center;
+}
+.carousel-item{
+  padding: 9% 15%;
+}
+.img2{
+  border-radius: 100%;
+  width: 5rem;
+  margin: 0 1.2% 0 0;
+}
+
+
+#press{
+  background-color: #FFC0D3;
+  color: white;
+  padding: 5% 15%;
+  text-align: center;
+}
+.img3press{
+  width: 17%;
+  margin: 2%;
+}
+
+
+#pricing{
+  padding: 7% 8%;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+
+
+#cta{
+  text-align: center;
+  background-color: #FFC0D3;
+  color: white;
+  padding: 7% 15%;
+}
+.bottomh3{
+  font-weight: 900;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+.downloadbtn2{
+  margin: 4% 2% 2% 1%;
+}
+
+
+#footer{
+  text-align: center;
+  padding: 3%;
+  background-color: white;
+}
+.bottomp{
+  font-size: 0.8rem;
+  color: #8f8f8f;
+  margin-top: 19px;
+}
